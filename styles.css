@@ -4,6 +4,8 @@ body {
 	background: #f8f8f8 url(../images/bg.png);
 	border-top: 5px solid #7e7e7e;
 	margin: 0;
+	text-indent: 1.5em; 
+    text-align: justify; 
 }
 
 img {
@@ -21,7 +23,7 @@ input[type="text"] {
 
 button {
 	color: #fff;
-	background-color: #29c5e6;
+	background-color:#638712 ;
 	border: none;
 	height: 32px;
 	font-family: 'Oswald', sans-serif;
@@ -111,7 +113,7 @@ nav li {
 }
 
 .top-menu li.active {
-	background: #29c5e6;
+	background: #638712;
 	color: #fff;
 }
 
@@ -130,7 +132,7 @@ nav li {
 }
 
 .aside-menu li.active {
-	color: #29c5e6;
+	color:#638712;
 }
 
 .aside-menu a {
@@ -139,7 +141,7 @@ nav li {
 
 blockquote {
 	margin: 0;
-	background: #29c5e6;
+	background:#638712; 
 	padding: 10px 20px;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
@@ -181,6 +183,7 @@ footer {
 	background: #7e7e7e;
 	color: #dbdbdb;
 	font-size: 11px;
+	overflow: hidden;
 }
 
 #footer {
