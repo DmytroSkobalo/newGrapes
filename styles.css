@@ -65,20 +65,6 @@ aside {
 	width: 250px;
 }
 
-aside > h2 {
-	background: #29c5e6;
-	font: 14px 'Oswald', sans-serif;
-	color: #fff;
-	padding: 10px;
-	margin: 30px 0 0 0;
-}
-
-aside > p {
-	background: #f3f3f3;
-	border: 1px solid #e7e7e7;
-	padding: 10px;
-	margin: 0;
-}
 
 section {
 	margin-left: 280px;
@@ -164,10 +150,7 @@ blockquote cite {
 	margin: 0;
 	text-align: right;
 }
-#img {
-	float:left;
-	margin:10px 20px 10px 0;
-}
+
 
 figure {
 	display: inline-block;
