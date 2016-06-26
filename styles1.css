@@ -64,13 +64,29 @@ body {
     max-width: 1920;
 }
 
-
-aside {
-	float:left;
-	margin:0 10px 10px 10px;
+#wrapper {
+	max-width: 980px;
+	margin: auto;
 }
+
+#img {
+	float:right;
+	margin:0 0 10px 10px;
+}
+
 #text {
-  float:right;
+
+    text-shadow: 1px 1px 2px black, 0 0 1em yellow;
+    color: white; 
+    font-size: 1.5em; 
+   }
+
+.reclame {
+	font-weight:900;
+}
+
+header {
+	padding: 20px 0;
 }
 
 footer {
