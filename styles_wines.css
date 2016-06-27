@@ -58,12 +58,12 @@ aside {
 }
 
 
-article {
+section {
 	margin-left: 280px;
 	padding-bottom: 50px;
 }
 
-article > h2 {
+section > h2 {
 	background: #29c5e6;
 	font: 30px 'Oswald', sans-serif;
 	font-weight: 300;
@@ -72,9 +72,25 @@ article > h2 {
 	margin: 30px 0 0 0;
 }
 
+	figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+
+.best_wine figure {
+	margin-top: 20px;
+}
+
+.best_wine figure + figure {
+	margin-left: 40px;
+}
+
 form[name="search"] {
 	float: center;
 }
+
 
 footer {
 	background-color: #7e7e7e;
@@ -101,19 +117,6 @@ nav li {
 	color: #fff;
 }
 
-figure figcaption {
-	font-size: 16px;
-	font-weight: 300;
-	margin-top: 5px;
-}
-
-.best_wine figure {
-	margin-top: 20px;
-}
-
-.best_wine figure + figure {
-	margin-left: 43px;
-}
 
 	
 footer {
