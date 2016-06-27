@@ -47,7 +47,7 @@ header {
 }
 
 form[name="search"] {
-	float: center;
+	float: right;
 }
 
 nav a {
@@ -152,3 +152,5 @@ footer a {
 	font-size: 10px;
 	text-align: right;
 }
+
+

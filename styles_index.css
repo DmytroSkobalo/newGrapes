@@ -103,21 +103,10 @@ footer {
 	height: 90px;
 }
 
-footer h3 {
-	font: 14px 'Oswald', sans-serif;
-	color: #fff;
-	border-bottom: 1px solid #919191;
-	margin: 0 0 10px 0;
-}
 
 footer a {
 	color: #dbdbdb;
 }
-
-footer p {
-	margin: 5px 0;
-}
-
 
 #sitemap {
 	width: 150px;
