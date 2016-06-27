@@ -9,9 +9,6 @@ body {
     min-width: 400px;
     max-width: 1920;
 }
-
-
-
 input[type="text"] {
 	background-color: #f3f3f3;
 	border: 1px solid #e7e7e7;
@@ -28,12 +25,14 @@ button {
 	font-family: 'Oswald', sans-serif;
 }
 
+p {
+	margin: 20px 0;
+}
+
 nav {
 	background: #f3f3f3;
 	border: 1px solid #e7e7e7;
 }
-
-
 
 #wrapper {
 	max-width: 980px;
@@ -47,53 +46,12 @@ header {
 	padding: 20px 0;
 }
 
-aside {
-	float: left;
-	width: 250px;
-}
-
-aside {
-	float: left;
-	width: 250px;
-}
-
-
-section {
-	margin-left: 280px;
-	padding-bottom: 50px;
-}
-
-section > h2 {
-	background: #29c5e6;
-	font: 30px 'Oswald', sans-serif;
-	font-weight: 300;
-	color: #fff;
-	padding: 0 10px;
-	margin: 30px 0 0 0;
-}
-
-	figure figcaption {
-	font-size: 16px;
-	font-weight: 300;
-	margin-top: 5px;
-}
-
-
-.best_wine figure {
-	margin-top: 20px;
-}
-
-.best_wine figure + figure {
-	margin-left: 40px;
-}
-
 form[name="search"] {
 	float: center;
 }
 
-
-footer {
-	background-color: #7e7e7e;
+nav a {
+	text-decoration: none;
 }
 
 nav ul {
@@ -106,9 +64,6 @@ nav li {
 	font: 14px 'Oswald', sans-serif;
 	padding: 10px;
 }
-nav a {
-    text-decoration: none;
-}
 
 .top-menu li {
 	display: inline-block;
@@ -117,17 +72,41 @@ nav a {
 }
 
 .top-menu li.active {
-	background: #8FB723;
+	background: #29c5e6;
 	color: #fff;
 }
 
+.top-menu a {
+	color: #b2b2b2;
+}
 
-	
+aside {
+	float: left;
+	width: 250px;
+}
+section {
+	margin-left: 280px;
+	padding-bottom: 50px;
+}
+
+figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+.best_wine figure {
+	margin-top: 20px;
+}
+
+.best_wine figure + figure {
+	margin-left: 43px;
+}
+
 footer {
 	background: #7e7e7e;
 	color: #dbdbdb;
 	font-size: 11px;
-	overflow: hidden;
 }
 
 #footer {
@@ -136,7 +115,6 @@ footer {
 	padding: 10px 0;
 	height: 90px;
 }
-
 
 footer a {
 	color: #dbdbdb;
@@ -153,7 +131,9 @@ footer a {
 	display: inline-block;
 }
 
-
+#sitemap div + div {
+	margin-left: 40px;
+}
 
 #sitemap a {
 	display: block;
@@ -166,12 +146,9 @@ footer a {
 	text-decoration: underline;
 }
 
-
 #footer-logo {
 	float: right;
 	margin-top: 20px;
 	font-size: 10px;
 	text-align: right;
 }
-
-
