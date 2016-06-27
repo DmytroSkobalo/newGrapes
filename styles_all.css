@@ -106,7 +106,8 @@ footer {
 	background: #7e7e7e;
 	color: #dbdbdb;
 	font-size: 11px;
-}
+    overflow: hidden;
+	}
 
 #footer {
 	max-width: 980px;
