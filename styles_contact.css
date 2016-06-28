@@ -28,9 +28,6 @@ button {
 	font-family: 'Oswald', sans-serif;
 }
 
-.message {
-	border-color:#8FB723; 
-}
 
 nav {
 	background: #f3f3f3;
@@ -62,7 +59,7 @@ header {
 }
 
 section {
-	margin-left: 280px;
+	margin-left: 28px;
 	padding-bottom: 50px;
 	}
 	
