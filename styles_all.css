@@ -40,8 +40,12 @@ nav {
 	margin: auto;
 }
 
-.img {
+img {
 	float:left;
+}
+
+.one_column {
+	overflow:auto;
 }
 
 #heading {
@@ -101,6 +105,8 @@ section {
 	margin-left: 280px;
 	padding-bottom: 50px;
 }
+
+
 
 footer {
 	background: #7e7e7e;
