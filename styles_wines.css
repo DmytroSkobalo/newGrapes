@@ -9,6 +9,21 @@ body {
     min-width: 400px;
     max-width: 1920;
 }
+
+#best_wine {
+  display: flex; /* or inline-flex */
+}
+	
+#best_wine {
+  flex-direction: row;
+}
+ 
+#best_wine {
+	border-radius:50px;
+}
+
+
+
 input[type="text"] {
 	background-color: #f3f3f3;
 	border: 1px solid #e7e7e7;

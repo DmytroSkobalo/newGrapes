@@ -107,6 +107,10 @@ section {
 	font-weight: 300;
 	list-style-type: square;
 	border-top: 1px solid #e7e7e7;
+	
+}
+.aside-menu li {
+ background: linear-gradient(#8FB723, white);
 }
 
 .aside-menu li:first-child {
