@@ -1,13 +1,80 @@
+@import "compass/css3";
+
+.navigation {
+ list-style: none;
+  margin: 0;
+  background:#8FB723;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end; 
+}
+
+.navigation a {
+  text-decoration: none; 
+  display: block;
+  padding: 1em;
+  color: white;
+
+}
+
+.navigation a:hover {
+  background: darken(deepskyblue, 2%);
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .navigation {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3); 
+    border-bottom: 1px solid rgba(0,0,0,0.1); 
+    
+  }
+
+  
+  .navigation li:last-of-type a {
+    border-bottom: none;
+  }
+}
+
+
+#nav {
+    float: right;
+    margin-top: 30px;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+
+
 body {
 	color: #8f8f8f;
 	font: 12px Tahoma, sans-serif;
 	background: #f8f8f8 ;
 	border-top: 5px solid #7e7e7e;
 	margin: 0;
-	text-align: justify;
     min-width: 400px;
     max-width: 1920;
 }
+
 
 input[type="text"] {
 	background-color: #f3f3f3;
@@ -30,10 +97,7 @@ p {
 	margin: 20px 0;
 }
 
-nav {
-	background: #f3f3f3;
-	border: 1px solid #e7e7e7;
-}
+
 
 #wrapper {
 	max-width: 980px;
@@ -42,12 +106,10 @@ nav {
 
 #img {
 	float:left;
-
-
 }
 
-.one_column {
-	overflow:auto;
+.new {
+	text-indent: 1.5em; 
 }
 
 #heading {
@@ -69,42 +131,12 @@ header {
 }
 
 
-nav a {
-	text-decoration: none;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-}
-
-nav li {
-	list-style-position: inside;
-	font: 14px 'Oswald', sans-serif;
-	padding: 10px;
-}
-
-.top-menu li {
-	display: inline-block;
-	padding: 10px 30px;
-	margin: 0;
-}
-
-.top-menu li.active {
-	background: #8FB723;
-	color: #fff;
-}
-
-.top-menu a {
-	color: #b2b2b2;
-}
-
 aside {
 	float: left;
 	width: 250px;
 }
 section {
-	margin-left: 280px;
+	margin-left: 440px;
 	padding-bottom: 50px;
 }
 

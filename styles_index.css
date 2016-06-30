@@ -1,26 +1,25 @@
 @import "compass/css3";
 
 .navigation {
-  list-style: none;
-  margin: 0; 
-  
+ list-style: none;
+  margin: 0;
   background:#8FB723;
   
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-  display: flex;
-  
+
   -webkit-flex-flow: row wrap;
-  justify-content: flex-end;
+  justify-content: flex-end; 
 }
 
 .navigation a {
-  text-decoration: none;
+  text-decoration: none; 
   display: block;
   padding: 1em;
   color: white;
+
 }
 
 .navigation a:hover {
@@ -45,6 +44,7 @@
     padding: 10px;
     border-top: 1px solid rgba(255,255,255,0.3); 
     border-bottom: 1px solid rgba(0,0,0,0.1); 
+    
   }
 
   
@@ -52,16 +52,34 @@
     border-bottom: none;
   }
 }
+
+
+
 body {
 	color: #8f8f8f;
 	font: 12px Tahoma, sans-serif;
 	background: #f8f8f8 ;
 	border-top: 5px solid #7e7e7e;
 	margin: 0;
-	text-indent: 1.5em; 
-    text-align: justify; 
-    min-width: 400px;
-    max-width: 1920;
+  min-width: 400px;
+  max-width: 1920;
+}
+
+#nav {
+    float: right;
+    margin-top: 30px;
+}
+
+
+
+.text {
+    text-indent: 1.5em; 
+}
+
+#navigation {
+  float:right;
+  margin-top: 30px;
+
 }
 
 #wrapper {
@@ -83,6 +101,8 @@ body {
 
 .reclame {
 	font-weight:900;
+    text-indent: 1.5em; 
+    
 }
 
 header {
@@ -97,7 +117,7 @@ footer {
 }
 
 #footer {
-	max-width: 960px;
+	max-width: 980px;
 	margin: auto;
 	padding: 10px 0;
 	height: 90px;

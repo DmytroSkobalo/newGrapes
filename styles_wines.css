@@ -1,25 +1,76 @@
+@import "compass/css3";
+
+.navigation {
+ list-style: none;
+  margin: 0;
+  background:#8FB723;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-end; 
+}
+
+.navigation a {
+  text-decoration: none; 
+  display: block;
+  padding: 1em;
+  color: white;
+
+}
+
+.navigation a:hover {
+  background: darken(deepskyblue, 2%);
+}
+
+@media all and (max-width: 800px) {
+  .navigation {
+    justify-content: space-around;
+  }
+}
+
+#nav {
+    float: right;
+    margin-top: 30px;
+}
+
+
+nav a {
+	text-decoration: none;
+}
+
 body {
 	color: #8f8f8f;
 	font: 12px Tahoma, sans-serif;
 	background: #f8f8f8 ;
 	border-top: 5px solid #7e7e7e;
 	margin: 0;
-	text-indent: 1.5em; 
-    text-align: justify; 
     min-width: 400px;
     max-width: 1920;
+    text-indent: 1.5em; 
 }
 
-#best_wine {
+.best_wine {
   display: flex; /* or inline-flex */
 }
 	
-#best_wine {
+.best_wine {
   flex-direction: row;
 }
  
-#best_wine {
+.best_wine {
 	border-radius:50px;
+}
+
+figure {
+	text-align: center;
+}
+
+figure img {
+	border-radius: 50%;
 }
 
 
@@ -44,10 +95,7 @@ p {
 	margin: 20px 0;
 }
 
-nav {
-	background: #f3f3f3;
-	border: 1px solid #e7e7e7;
-}
+
 
 #wrapper {
 	max-width: 980px;
@@ -75,35 +123,6 @@ header {
 }
 
 
-nav a {
-	text-decoration: none;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-}
-
-nav li {
-	list-style-position: inside;
-	font: 14px 'Oswald', sans-serif;
-	padding: 10px;
-}
-
-.top-menu li {
-	display: inline-block;
-	padding: 10px 30px;
-	margin: 0;
-}
-
-.top-menu li.active {
-	background: #8FB723;
-	color: #fff;
-}
-
-.top-menu a {
-	color: #b2b2b2;
-}
 
 aside {
 	float: left;
@@ -132,6 +151,7 @@ footer {
 	background: #7e7e7e;
 	color: #dbdbdb;
 	font-size: 11px;
+	overflow: hidden;
 }
 
 #footer {
