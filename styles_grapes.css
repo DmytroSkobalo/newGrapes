@@ -80,10 +80,10 @@ body {
 	font: 12px Tahoma, sans-serif;
 	background-color: #f8f8f8;
 	border-top: 5px solid #7e7e7e;
-	margin: 0;
+	margin: 0 auto;
 	text-indent: 1.5em; 
     min-width: 400px;
-    max-width: 1920;
+    max-width: 1920px;
 }
 
 input[type="text"] {
