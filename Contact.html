@@ -4,62 +4,88 @@
     <head>
         <meta charset="utf-8">
         <title>Золота колекція Закарпаття </title>
-        <link rel="stylesheet" href="styles_contact.css" type="text/css" />
+        <link rel="stylesheet" href="styles.css" type="text/css" />
         <link rel="icon" href="logo3.svg" type="image/svg" />
     </head>
     <body>
+           <header>
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="120px"
+                	 height="60px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve">
+                <g id="Layer0">
+                </g>
+                <g id="Layer_1">
+                	<g id="_x31_0_13_">
+                		<g>
+                			<path fill-rule="evenodd" fill="#fff" clip-rule="evenodd" d="M112.602,76.968c14.904-14.905,15.09-38.883,0.416-53.558
+                				C98.342,8.733,74.363,8.921,59.459,23.825c-14.902,14.904-15.09,38.883-0.414,53.557C73.719,92.056,97.697,91.872,112.602,76.968
+                				z M88.521,160.833c14.904-14.904,15.09-38.883,0.416-53.56c-14.674-14.675-38.654-14.487-53.557,0.417
+                				c-14.906,14.904-15.092,38.883-0.418,53.557C49.639,175.922,73.619,175.737,88.521,160.833z M11.299,191.554
+                				c-14.902,14.904-15.09,38.883-0.414,53.56c14.676,14.675,38.652,14.487,53.557-0.417s15.09-38.883,0.416-53.557
+                				C50.182,176.465,26.205,176.649,11.299,191.554z M118.83,137.167c14.674,14.675,38.652,14.489,53.557-0.414
+                				c14.904-14.904,15.092-38.883,0.416-53.557c-14.676-14.678-38.654-14.49-53.559,0.414S104.154,122.492,118.83,137.167z
+                				 M179.029,143.396c-14.904,14.904-15.09,38.883-0.414,53.557c14.676,14.676,38.652,14.489,53.557-0.414
+                				c14.904-14.904,15.092-38.883,0.414-53.558C217.912,128.304,193.934,128.491,179.029,143.396z M95.164,167.477
+                				c-14.904,14.903-15.09,38.882-0.414,53.557c14.674,14.675,38.654,14.489,53.557-0.415c14.904-14.904,15.09-38.883,0.416-53.56
+                				C134.047,152.384,110.068,152.571,95.164,167.477z M213.951,101.413c-1.548-12.089-6.319-23.841-14.294-33.885
+                				c6.966-7.021,28.961-29.187,31.565-31.811c3.1-3.125,8.129-3.123,11.232,0.005c3.1,3.118,8.121,3.118,11.219-0.005
+                				c3.102-3.125,3.102-8.189,0-11.314c-9.299-9.373-24.375-9.373-33.676,0c-7.664,7.724-25.555,25.752-31.618,31.863
+                				c-10.022-7.932-21.741-12.677-33.796-14.22c-1.867-14.556-8.383-28.631-19.563-39.81c-2.98-2.981-7.814-2.981-10.795,0
+                				c-2.98,2.979-2.98,7.813,0,10.794c12.041,12.043,17.131,28.401,15.271,44.097c15.695-1.859,32.055,3.229,44.098,15.274
+                				c12.043,12.041,17.133,28.4,15.273,44.096c15.695-1.859,32.055,3.23,44.098,15.271c2.98,2.982,7.813,2.982,10.793,0
+                				c2.982-2.979,2.982-7.813,0-10.794C242.58,109.796,228.508,103.276,213.951,101.413z"/>
+                		</g>
+                	</g>
+                </g>
+                </svg>
+
+                <nav id="nav">
+                  <ul class="navigation">
+                    <li><a href="index.html">ГОЛОВНА</a></li>
+                    <li><a href="Grapes.html">ВИНОГРАДАРСТВО</a></li>
+                    <li><a href="Wines.html">КРАЩІ ВИНА</a></li>
+                    <li><a href="Contact.html" class="active">КОНТАКТИ</a></li>
+                  </ul>    
+                </nav>
+           </header>
       <div id="wrapper">
-          <header>
-             <img src="logo3.svg" alt="new_grapes logo" height="90" width="120">
-          <nav id="nav">
-              <ul class="navigation">
-                  <li><a href="index.html">ГОЛОВНА</a></li>
-		          <li><a href="Grapes.html">ВИНОГРАДАРСТВО</a></li>
-		          <li><a href="Wines.html">КРАЩІ ВИНА</a></li>
-		          <li><a href="Contact.html">КОНТАКТИ</a></li>
-		      </ul>
-            </nav><br><br>
-            <div id="heading">
-              <h1>КОНТАКТИ</h1><br><br>
-            </div>
-          </header> 
           <section>
-              <form  method="POST" action="https://formspree.io/skobalo88@mail.ru">
-                <label for="name">Ім'я:</label>
+            <div id="container">  
+              <form  method="POST" action="">
+                <label for="name">Ім'я:</label><br/>
                 <input type="text" id="name" name="name" title="Введіть будь-ласка своє ім'я"><br><br>
                 
-                <label for="e-mail">E-mail:</label>
-                <input type="text" id="e-mail" name="e-mail" title="Введіть будь-ласка свій e-mail"><br><br>
+                <label for="email">E-mail:</label><br/>
+                <input type="text" id="email" name="email" title="Введіть будь-ласка свій e-mail"><br><br>
                 
                 <p>У цьому полі ви можете написати свої коментарі, або задати цікаве запитання нашим виноградарям!<br>
-                Також звертайтесь на рахунок щепів винограду та дійсно хорошого вина!</p><br> 
-                <textarea name="message" rows="20" cols="40" placeholder="Не більше 500 символів!" maxlength="500"></textarea><br><br><br>
-                
+                Також звертайтесь на рахунок щепів винограду та дійсно хорошого вина!</p>
+                <textarea id="message"  name="message" rows="20" cols="40" placeholder="Не більше 500 символів!" maxlength="500"></textarea><br><br><br>
                 <p>Вам сподобався цей сайт?</p>
                 <input type="radio" name="like" value="Yes_very_much">Так, дуже класний сайт!
                 <input type="radio" name="like" value="Yes_may_be">Так, але бувало і краще
                 <input type="radio" name="like" value="NO">Ні, мені не сподобався!
                 <br><br><br>
-                
-                 <input type="submit" name="send" value="Відправити"><br><br><br>
+                <div id="error"></div>
+                <div id="b" class="button"> Надіслати </div>
               </form>
+            </div>          
           </section>
         </div>
-    <footer>          
+      <footer>
          <div id="sitemap">
-	        <h3>КАРТА САЙТУ</h3>
 	          <div>
-		        <a href= "index.html">Головна</a>
-		        <a href= "Grapes.html">Виноград</a>
-		        <a href= "Wines.html">Кращі вина</a>
+		        <a href= "index.html">Головна</a> |
+		        <a href= "Grapes.html">Виноград</a> |
+		        <a href= "Wines.html">Кращі вина</a> |
 		        <a href="Contact.html">Контакти</a>
 		      </div>
-		 </div>    
+		  </div>    
          
-         <div id="footer-logo">
-	        <img src="logo3.svg" alt="new_prapes logo" height="60" width="80"><strong>In Vino veritas</strong>
-	        <p>Copyright © 2016 New_grapes. Dmytro_Skobalo </p>
+         <div id="footer-copyright">
+	        Copyright © 2016 New grapes. Dmytro Skobalo
         </div>
       </footer>
+     <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+     <script src="script.js"></script>
     </body>
-</html>    
+</html>
