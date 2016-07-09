@@ -7,6 +7,8 @@ body {
     background: #333333;
     margin: 0;
     padding: 0;
+    min-width: 420px;
+    max-width: 1920px;
 }
 
 @media only screen and (max-width : 568px) {
