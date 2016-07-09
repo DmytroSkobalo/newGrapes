@@ -236,6 +236,7 @@ h1 {
 	font: 40px/40px 'Oswald', sans-serif;
 	margin: 0;
 	padding: 0 10px;
+	margin-top:-30px;
 }
 aside {
 	float: left;
@@ -248,6 +249,13 @@ section {
 	padding: 20px;
 }
 
+#wine {
+	margin-left: 350px;
+	padding-bottom: 50px;
+	padding: 50px;
+	
+}
+
 #img {
 	float:right;
 	margin:0 -40px 10px 10px;
@@ -256,6 +264,10 @@ section {
 #img2 {
     float:right;
 	margin:0 -80px 10px 10px;
+}
+
+.img {
+	margin-top: -40px;
 }
 
 blockquote {
