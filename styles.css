@@ -10,9 +10,7 @@ body {
 }
 
 @media only screen and (max-width : 568px) {
-	body{
-		background: green;
-	}
+	
 }
 
 
@@ -240,13 +238,13 @@ aside {
 	width: 250px;
 }
 section {
-	margin-left: 280px;
+	margin-left: 320px;
 	padding-bottom: 50px;
 }
 
 #img {
 	float:right;
-	margin:0 0 10px 10px;
+	margin:0 -40px 10px 10px;
 }
 
 
