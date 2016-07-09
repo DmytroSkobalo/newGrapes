@@ -3,9 +3,9 @@
 body {
     color: #ffffff;
     font-family: 'Roboto Slab', serif;
-    font-size: 13px;
+    font-size: 17px;
     background: #333333;
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
     min-width: 420px;
     max-width: 1920px;
@@ -99,7 +99,7 @@ a {
 }
 
 #wrapper {
-	max-width: 980px;
+	max-width: 1050px;
 	margin: auto;
 }
 
@@ -109,9 +109,10 @@ a {
 }
 
 .aside-nav ul {
-	margin: 0;
+    margin: 0;
 	padding: 0;
 	border: 1px solid #e7e7e7;
+
 }
 .aside-nav li {
 	list-style-position: inside;
@@ -137,6 +138,7 @@ button {
 }
 
 .button {
+	float:left;
     width: 150px;
     border-radius: 100px;
     height: 30px;
@@ -191,7 +193,7 @@ form[name="search"] {
 
 
 .aside-menu li {
-	font-weight: 300;
+	font-weight: 400;
 	border-top: 1px solid #e7e7e7;
 	list-style-type: none;
 }
@@ -238,10 +240,12 @@ h1 {
 aside {
 	float: left;
 	width: 250px;
+	margin-top: 30px;
 }
 section {
-	margin-left: 320px;
+	margin-left: 350px;
 	padding-bottom: 50px;
+	padding: 20px;
 }
 
 #img {
@@ -249,6 +253,10 @@ section {
 	margin:0 -40px 10px 10px;
 }
 
+#img2 {
+    float:right;
+	margin:0 -80px 10px 10px;
+}
 
 blockquote {
 	margin: 0;
@@ -325,6 +333,13 @@ section > figure + figure {
 	outline: 0;
 }
 
+
+.reclame {
+    color: #ffffff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 22px;
+    background: #333333;	
+}
 
 #error {
 	color: red;
