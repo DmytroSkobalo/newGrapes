@@ -98,6 +98,11 @@ a {
   margin-top: 30px;
 }
 
+.item {
+	width: 600px;
+	height: 450px;
+}
+
 #wrapper {
 	max-width: 1050px;
 	margin: auto;
@@ -112,11 +117,17 @@ a {
     margin: 0;
 	padding: 0;
 	border: 1px solid #e7e7e7;
-
 }
+
+img {
+    margin: 0 auto;
+    padding: 0;
+}
+
+	
+
 .aside-nav li {
 	list-style-position: inside;
-	font: 17px 'Oswald', sans-serif;
 	padding: 10px;
 }
 
@@ -265,6 +276,7 @@ section {
     float:right;
 	margin:0 -80px 10px 10px;
 }
+
 
 .img {
 	margin-top: -40px;
