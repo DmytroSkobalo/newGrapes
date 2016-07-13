@@ -3,7 +3,7 @@
 body {
     color: #ffffff;
     font-family: 'Roboto Slab', serif;
-    font-size: 17px;
+    font-size: 18px;
     background: #333333;
     margin: 0 ;
     padding: 0;
@@ -15,6 +15,13 @@ body {
 	
 }
 
+.title {
+	text-align: center;
+}
+
+.titleGrapes {
+	text-align: center;
+}
 
 header {
 	padding: 20px 0;
@@ -288,7 +295,7 @@ blockquote {
 	font-family: 'Oswald', sans-serif;
 	font-weight: 300;
     background-color: #e61f59;
-    background-image: radial-gradient(ellipse farthest-corner at right bottom, #999 0%, #666 50%, #333 100%);
+    background-image: radial-gradient(ellipse farthest-corner at right bottom, #F8F4F4 0%, #666 50%, #111010 100%);
  
 }
 
