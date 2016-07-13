@@ -5,8 +5,8 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
     background: #333333;
-    margin: 0 ;
-    padding: 0;
+    margin: 0 auto ;
+    padding: 0 ;
     min-width: 420px;
     max-width: 1920px;
 }
