@@ -1,4 +1,6 @@
-$('#b').click(function() {
+$(document).ready(function() {
+
+  $('#b').click(function() {
     $('#b').addClass('load').html('');
     $.ajax({
         url:"https://formspree.io/skobalo88@mail.ru",
@@ -18,3 +20,21 @@ $('#b').click(function() {
         }
     });
 });  
+
+
+$('.best_wine figure img');
+
+ $('img[src*=cabernet2]').hide(0);
+ $('img[src*=cabernet2]').show(3000);
+ $('img[src*=chardone3]').hide(0);
+ $('img[src*=chardone3]').show(3000);
+ $('img[src*=kahor2]').hide(0);
+ $('img[src*=kahor2]').show(3000);
+ $('img[src*=kupaj]').hide(0);
+ $(' img[src*=kupaj]').show(3000);
+ $('img[src*=merlot2]').hide(0);
+ $('img[src*=merlot2]').show(3000);
+ $('img[src*=muscat2]').hide(0);
+ $('img[src*=muscat2]').show(3000);
+    
+}); 

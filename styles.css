@@ -23,6 +23,7 @@ body {
 	text-align: center;
 }
 
+
 header {
 	padding: 20px 0;
 	background: #000;	
@@ -358,10 +359,12 @@ section > figure + figure {
 	text-align: center;
 }
 
-.best_wine figure img {
+.best_wine figure  img {
 	border-radius: 50%;
 	border: 0;
 	outline: 0;
+
+	
 }
 
 
