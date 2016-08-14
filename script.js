@@ -37,7 +37,7 @@ var myImg4 = $('#img img[src*=kupaj]');
  var myImg5 = $('img[src*=merlot2]');
    myImg5.fadeOut(0).fadeIn(6000);
  var myImg6 = $('img[src*=muscat2]');
-   myImg6.fadeOut(0).fadeIn(6/000);
+   myImg6.fadeOut(0).fadeIn(6000);
  
  /*var heading = $('#heading '); 
    heading.hide(0).show(2000);*/
