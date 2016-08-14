@@ -24,18 +24,20 @@ $(document).ready(function() {
 
 $('.best_wine figure img');
 
+
+//Плавне зникнення картинки
 var myImg = $('img[src*=cabernet2]');
-   myImg.fadeOut(0).fadeIn(5000);
+   myImg.fadeOut(0).fadeIn(6000);
 var myImg2 = $('img[src*=chardone3]');
-   myImg2.hide(0).show(3000);
+   myImg2.fadeOut(0).fadeIn(6000);
 var myImg3 = $('img[src*=kahor2]');
-   myImg3.hide(0).show(3000);
+   myImg3.fadeOut(0).fadeIn(6000);
 var myImg4 = $('#img img[src*=kupaj]');
-   myImg4.hide(0).show(3000);
+   myImg4.fadeOut(0).fadeIn(6000);
  var myImg5 = $('img[src*=merlot2]');
-   myImg5.hide(0).show(3000);
+   myImg5.fadeOut(0).fadeIn(6000);
  var myImg6 = $('img[src*=muscat2]');
-   myImg6.hide(0).show(3000);
+   myImg6.fadeOut(0).fadeIn(6/000);
  
  /*var heading = $('#heading '); 
    heading.hide(0).show(2000);*/
@@ -63,6 +65,30 @@ var myImg4 = $('#img img[src*=kupaj]');
       look.fadeTo(7000, 0.1).fadeTo(5000, 1);
       
       $('#wrapper h1').slideUp(0).slideDown(3000);
-}); 
+
+    
+//Підсвітка тексту в момент наведення мишкою
+$('#best_wine figure figcaption a ').hover (function() {
+      $(this).addClass('color'); 
+  }, function() {
+      $(this).removeClass('color'); 
+ });
 
 
+//Заховати форму
+$('#hideForm').toggle(function() {
+    $('#myForm').fadeOut(1000);
+    $(this).text('Показати форму');
+    
+}, function() {
+      $('#myForm').fadeIn(1000);
+    $(this).text('Заховати форму');
+
+    
+});
+
+
+    
+    
+    
+})

@@ -249,6 +249,8 @@ form[name="search"] {
 }
 
 
+
+
 h1 {
 	display: inline-block;
 	color: #fff;
@@ -343,30 +345,42 @@ section > figure + figure {
 	margin-left: 28px;
 }
 
-.best_wine {
+#best_wine {
   display: flex; /* or inline-flex */
 }
 	
-.best_wine {
+#best_wine {
   flex-direction: row;
 }
  
-.best_wine {
+#best_wine {
 	border-radius:50px;
 }
 
-.best_wine figure {
+#best_wine figure {
 	text-align: center;
 }
 
-.best_wine figure  img {
+#best_wine figure  img {
 	border-radius: 50%;
 	border: 0;
 	outline: 0;
 
-	
 }
-
+  
+.color {
+	color:#000;
+	font-size: 16px;
+	font-weight: 600;
+} 
+   
+   
+ #hideForm {
+ 	color:#000;
+ 	text-decoration: underline;
+ 	margin-bottom: 15px;
+ 	cursor: pointer;
+ } 
 
 .reclame {
     color: #ffffff;
@@ -380,26 +394,26 @@ section > figure + figure {
 	font-weight: 900;
 }
 
-.best_wine aside {
+#best_wine aside {
 	float: left;
 	width: 250px;
 }
-.best_wine section {
+#best_wine section {
 	margin-left: 280px;
 	padding-bottom: 50px;
 }
 
-.best_wine figure figcaption {
+#best_wine figure figcaption {
 	font-size: 16px;
 	font-weight: 300;
 	margin-top: 5px;
 }
 
-.best_wine figure {
+#best_wine figure {
 	margin-top: 40px;
 }
 
-.best_wine figure + figure {
+#best_wine figure + figure {
 	margin-left: 125px;
 }
 
