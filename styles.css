@@ -1,10 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100&subset=latin,cyrillic-ext);
 
 body {
-    color: #ffffff;
+    color: #4A4545;
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
-    background: #333333;
+    background: #EDEDED;
     margin: 0 auto ;
     padding: 0 ;
     min-width: 420px;
@@ -31,7 +31,9 @@ header {
 }
 
 a {
-	color: #fff;
+	color: #000;
+	font-weight: 500;
+	
 }
 
 .logo path {
@@ -100,14 +102,14 @@ a {
 #nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li li li li:hover ul{
     display:block;
     }
-    
-    
+  
 
 
 #nav {
     float: right;
     margin-top: 10px;
 }
+
 
 /*
 .navigation {
@@ -192,7 +194,7 @@ a {
 .aside-nav ul {
     margin: 0;
 	padding: 0;
-	border: 1px solid #e7e7e7;
+	border: 1px solid #000;
 }
 
 img {
@@ -207,14 +209,14 @@ img {
 	padding: 10px;
 }
 
-input[type="text"] {
+/*input[type="text"] {
 	background-color: #f3f3f3;
 	border: 1px solid #e7e7e7;
 	height: 30px;
 	color: #b2b2b2;
 	padding: 0 10px;
 	vertical-align: top;
-}
+}*/
 
 button {
 	color: #fff;
@@ -280,18 +282,19 @@ form[name="search"] {
 
 
 .aside-menu li {
-	font-weight: 400;
-	border-top: 1px solid #e7e7e7;
+	font-size: 25px;
+	font-weight: 500;
+	border-top: 1px solid #000;
 	list-style-type: none;
 }
 
 .aside-menu li:hover {
-	font-weight: 300;
-	background: #e7e7e7;
+	font-weight: 500;
+	background: #000;
 }
 
 .aside-menu li:hover a{
-	color: #000;
+	color: #fff;
 }
 
 
@@ -300,16 +303,18 @@ form[name="search"] {
 }
 
 .aside-menu li.active {
-	color: #29c5e6;
+	color: #000;
+	background-color: #fff;
 }
 
 .aside-menu a {
-	color: #fff;
+	color: #000;
 }
 
 .aside-menu a:hover {
 	color: #000;
-}
+}	
+
 
 #heading {
 	margin: 30px 0;
@@ -321,11 +326,12 @@ form[name="search"] {
 
 h1 {
 	display: inline-block;
-	color: #fff;
-	font: 40px/40px 'Oswald', sans-serif;
+	color: #0b0a0a;
+	font: 42px'Oswald', sans-serif;
 	margin: 0;
 	padding: 0 10px;
 	margin-top:-30px;
+	font-weight: 500;
 }
 aside {
 	float: left;
@@ -363,10 +369,10 @@ section {
 blockquote {
 	margin: 0;
 	padding: 10px 20px;
-	font-family: 'Oswald', sans-serif;
-	font-weight: 300;
+	font-family: 'Roboto Slab' sans-serif;
+	font-weight: 500;
     background-color: #e61f59;
-    background-image: radial-gradient(ellipse farthest-corner at right bottom, #F8F4F4 0%, #666 50%, #111010 100%);
+    background-image: radial-gradient(ellipse farthest-corner at right bottom, #727171 0%, #000 50%, #DDDBDB 100%);
  
 }
 
@@ -388,7 +394,7 @@ blockquote cite {
 figure {
 	display: inline-block;
 	margin: 0;
-	font-family: 'Oswald', sans-serif;
+	font-family:'Roboto Slab' , sans-serif;
 	font-weight: 300;
 }
 
@@ -430,7 +436,7 @@ section > figure + figure {
 }
 
 #best_wine figure  img {
-	border-radius: 50%;
+	border-radius: 40%;
 	border: 0;
 	outline: 0;
 
@@ -438,8 +444,8 @@ section > figure + figure {
   
 .color {
 	color:#000;
-	font-size: 16px;
-	font-weight: 600;
+	font-size: 17px;
+	font-weight: 900;
 } 
    
    
@@ -458,10 +464,10 @@ section > figure + figure {
  } 
 
 .reclame {
-    color: #ffffff;
+    color: #4A4545;
     font-family: 'Roboto Slab', serif;
     font-size: 22px;
-    background: #333333;	
+   	
 }
 
 #error {
@@ -501,7 +507,7 @@ section > figure + figure {
 }
 
 footer {
-	background: #7e7e7e;
+	background: #000;
 	font-size: 11px;
 	overflow: hidden;
 	margin-top: 50px;
@@ -541,4 +547,151 @@ footer a {
 #footer-copyright {
 	float: right;
 	font-size: 13px;
+}
+
+.container {
+    margin-top:50px;
+}
+
+
+
+.input {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin: 1em;
+    max-width: 350px;
+    width: 100%;
+    vertical-align: top;  
+}
+
+.input__field {
+    position: relative;
+    display: block;
+    float: center;
+    padding: 0.8em;
+    width: 60%;
+    border: none;
+    border-radius: 0;
+    background: #f0f0f0;
+    color: #000;
+    font-weight: 500;
+    box-sizing: border-box;
+    -webkit-appearance: none; /* for box shadows to show on iOS */
+}
+
+.input__field:focus {
+    outline: none;
+}
+
+.input__label {
+    display: inline-block;
+    float: right;
+    padding: 0 1em;
+    width: 40%;
+    color: #000;
+    font-weight: bold;
+    font-size: 80.25%;
+  box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.input__label-content {
+    position: relative;
+    display: block;
+    padding: 1.6em 0;
+    width: 100%;
+}
+
+.graphic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: none;
+}
+
+.icon {
+    color: #ddd;
+    font-size: 150%;
+}
+
+.input--nariko {
+    overflow: hidden;
+    padding-top: 2em;
+}
+
+.input__field--nariko {
+    width: 100%;
+    background: transparent;
+    opacity: 0;
+    padding: 0.35em;
+    z-index: 100;
+    color: #000000;
+}
+
+.input__label--nariko {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    pointer-events: none;
+    text-align: left;
+    color: #8E9191;
+    padding: 0 0.5em;
+}
+
+.input__label--nariko::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4em;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    border-top: 4px solid #9B9F9F;
+    -webkit-transform: translate3d(0, -3px, 0);
+    transform: translate3d(0, -3px, 0);
+    -webkit-transition: -webkit-transform 0.4s;
+    transition: transform 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.input__label-content--nariko {
+    padding: 0.5em 0;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    -webkit-transition: -webkit-transform 0.4s, color 0.4s;
+    transition: transform 0.4s, color 0.4s;
+    -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+    transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.input__field--nariko:focus,
+.input--filled .input__field--nariko {
+    cursor: text;
+    opacity: 1;
+    -webkit-transition: opacity 0s 0.4s;
+    transition: opacity 0s 0.4s;
+} 
+
+.input__field--nariko:focus + .input__label--nariko::before,
+.input--filled .input__label--nariko::before {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+    -webkit-transform: translate3d(0, -3.3em, 0);
+    transform: translate3d(0, -3.3em, 0);
+}
+
+.input__field--nariko:focus + .input__label--nariko .input__label-content--nariko,
+.input--filled .input__label-content--nariko {
+    color: #6B6E6E;
+    -webkit-transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
+    transform: translate3d(0, -3.3em, 0) scale3d(0.81, 0.81, 1);
 }
